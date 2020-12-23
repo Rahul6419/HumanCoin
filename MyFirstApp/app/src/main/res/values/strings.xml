@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Human Coin</string>
+    <string name="pull_all_your_rewards_from_elsewhere_and_convert_them_into_usable_tokens">PULL ALL YOUR REWARDS FROM ELSEWHERE AND CONVERT THEM INTO USABLE TOKENS</string>
+    <string name="lets_get_started">Lets Get Started</string>
+    <string name="humancoin_is_tokenized_aggregated_unspent_rewards_at_different_service_providers">HUMANCOIN IS TOKENIZED AGGREGATED UNSPENT REWARDS AT DIFFERENT SERVICE PROVIDERS</string>
+    <string name="human_coin">Human Coin</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="exit_toast">Do you want to Leave?</string>
+
+
+    <string name="store_watch_trade_crypto_currencies">Store. Watch &amp; Trade Crypto Currencies></string>
+</resources>

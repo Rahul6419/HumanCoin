@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40.3dp"
+                android:layout_height="40.3dp"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="HUMAN COIN"
+                android:textSize="25sp"
+                android:textColor="#141a22"/>
+
+        </LinearLayout>-->
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logohcn"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ff0000"
+            android:text="Personalized Tokens/ Fragmented Human."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+
+            android:text="Fragmented Human is a diversified concept of tokenizing human attributes and assets which can be consumed by different merchants to leverage benefits and schemes for individuals with a taste of personalization. This solution comes bounded with threads of Non Fungible Tokens of Ethereum."/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+            android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ff0000"
+        android:text="Aggregate Rewards from anywhere."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:text="Rewards till now are a set of recognition given over a closed environment. Now we are providing a platform where your unused and unspent rewards from different merchants can be relayed to a common platform and will be presented as a ERC20 Token which can be further traded and withdrawn."/>
+    </LinearLayout>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/bottom_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_rect"
+        android:textColor="#fbfbfb"
+        android:textAllCaps="false"
+        android:layout_margin="19.3dp"
+        android:onClick="btn_start_Form"
+        android:text="Get Started"/>
+
+</RelativeLayout>

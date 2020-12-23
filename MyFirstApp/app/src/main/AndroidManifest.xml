@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myfirstapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.Light.Bridge">
+        <activity android:name=".SignUpSeller"></activity>
+        <activity android:name=".MoodVitals" />
+        <activity android:name=".CouponCreation" />
+        <activity android:name=".MarketPlace" />
+        <activity android:name=".PendingTransactions" />
+        <activity android:name=".RequestForSellers" />
+        <activity android:name=".AssociateSellerAdmin" />
+        <activity android:name=".Personal" />
+        <activity android:name=".HcnNetwork" />
+        <activity android:name=".SwapTokens" />
+        <activity android:name=".Transactions" />
+        <activity android:name=".Balance" />
+        <activity android:name=".NewSeller" />
+        <activity android:name=".AssociateSeller" />
+        <activity android:name=".DashBoard" />
+        <activity android:name=".SignUpForm" />
+        <activity
+            android:name=".LoginForm"
+            android:noHistory="true" />
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

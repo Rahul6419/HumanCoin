@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/seller" android:title="Seller" android:icon="@drawable/ic_anchor_24px">
+        <menu>
+            <item android:icon="@drawable/ic_anchor_24px" android:title="Associated Sellers" android:onClick="btn_MenuAction12"></item>
+            <item android:icon="@drawable/ic_addchart_24px" android:title="Onboarding Requested Seller List" android:onClick="btn_MenuAction12"></item>
+        </menu>
+
+    </item>
+    <item android:id="@+id/wallet" android:title="Wallet" android:icon="@drawable/ic_account_balance_wallet_24px">
+        <menu>
+            <item android:id="@+id/balance" android:title="Balance"  android:icon="@drawable/ic_account_balance_wallet_24px" android:onClick="btn_MenuAction12"></item>
+            <item android:id="@+id/transactions" android:title="Transactions" android:icon="@drawable/ic_account_balance_wallet_24px" android:onClick="btn_MenuAction12"></item>
+            <item android:id="@+id/swap" android:title="Swap/Send Tokens" android:icon="@drawable/ic_swap_horiz_24px" android:onClick="btn_MenuAction12"></item>
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/personal" android:title="Personal Token Info" android:icon="@drawable/ic_face_24px" android:onClick="btn_MenuAction12"></item>
+    <item android:id="@+id/network" android:title="Human Coin Network" android:icon="@drawable/ic_fingerprint_24px" android:onClick="btn_MenuAction12"></item>
+    <item android:id="@+id/logout" android:title="Logout" android:icon="@drawable/ic_dashboard_24px" android:onClick="btn_logout"></item>
+</menu>
